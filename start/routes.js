@@ -32,5 +32,5 @@ Route.group(() => {
     Route.patch('tareas/:id', 'TareaController.update').middleware('auth');
     Route.delete('tareas/:id', 'TareaController.destroy').middleware('auth');
     Route.delete('tareas/:id', 'TareaController.destroy').middleware('auth');
-    Route.delete('tareas/:id', 'TareaController.destroy').middleware('auth');
+    
 }).prefix('api/');
